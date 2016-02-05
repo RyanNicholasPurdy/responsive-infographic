@@ -10,8 +10,13 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: #a8dbd2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.man{
+  width: 300px;
 }
