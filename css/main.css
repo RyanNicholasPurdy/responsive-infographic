@@ -17,6 +17,15 @@ html {
   box-sizing: inherit;
 }
 
+.main-title{
+  width: 300px;
+}
+
 .man{
   width: 300px;
+}
+
+.dog{
+  width: 300px;
+  height: 600px;
 }
