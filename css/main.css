@@ -17,15 +17,14 @@ html {
   box-sizing: inherit;
 }
 
-.main-title{
-  width: 300px;
+.cell:hover{
+  animation: slide .75s linear alternate infinite;
 }
 
-.man{
-  width: 300px;
-}
+@keyframes slide {
 
-.dog{
-  width: 300px;
-  height: 600px;
+  0% { transform: translate(0, 0); }
+
+  100% { transform: translate(0, 10px); }
+
 }
