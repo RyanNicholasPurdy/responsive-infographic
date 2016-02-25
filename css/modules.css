@@ -55,7 +55,7 @@ svg:not(:root) {
 
 svg {
   fill: currentColor;
-  stroke: currentColor;
+  stroke: none;
 }
 
 .image-replacement, .ir {
