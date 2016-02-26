@@ -53,11 +53,6 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-svg {
-  fill: currentColor;
-  stroke: none;
-}
-
 .image-replacement, .ir {
   overflow: hidden;
   direction: ltr;
