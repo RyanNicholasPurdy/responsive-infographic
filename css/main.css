@@ -16,15 +16,3 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
-.cell:hover{
-  animation: slide .75s linear alternate infinite;
-}
-
-@keyframes slide {
-
-  0% { transform: translate(0, 0); }
-
-  100% { transform: translate(0, 10px); }
-
-}
